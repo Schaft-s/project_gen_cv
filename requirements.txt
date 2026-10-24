@@ -1,0 +1,15 @@
+# Torch is platform-specific: install it first, then this file.
+# Local macOS (MPS):  pip install torch torchvision
+# Colab: torch is already installed; do not reinstall it.
+diffusers==0.32.2
+transformers>=4.44.0,<5
+accelerate>=0.34.0
+safetensors
+huggingface-hub>=0.34.0,<1
+numpy
+pillow
+matplotlib
+tqdm
+pyyaml
+pytest
+clean-fid

@@ -1,0 +1,25 @@
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+.ipynb_checkpoints/
+.DS_Store
+src/*.egg-info/
+
+# generated artifacts
+outputs/
+data/noise_banks/
+data/references/
+data/cifar10/
+hf_cache/
+*.pt
+*.pth
+*.safetensors
+
+# keep folder placeholders
+!data/noise_banks/.gitkeep
+!outputs/.gitkeep
