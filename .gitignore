@@ -8,10 +8,8 @@ build/
 .pytest_cache/
 .ipynb_checkpoints/
 .DS_Store
-src/*.egg-info/
 
 # generated artifacts
-outputs/
 data/noise_banks/
 data/references/
 data/cifar10/
@@ -20,6 +18,17 @@ hf_cache/
 *.pth
 *.safetensors
 
+outputs/**
+!outputs/.gitkeep
+!outputs/**/
+!outputs/*.json
+!outputs/s1_baseline/*.json
+!outputs/s8/*.json
+!outputs/s8/*.csv
+outputs/s8/fid_images/
+outputs/s8/_fid_probe/
+outputs/s8/fid_partial.json
+outputs/s8/*.png
+
 # keep folder placeholders
 !data/noise_banks/.gitkeep
-!outputs/.gitkeep

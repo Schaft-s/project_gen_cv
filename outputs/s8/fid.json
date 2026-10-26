@@ -1,0 +1,64 @@
+{
+  "protocol": "clean-fid cifar10 test 32",
+  "n": 2000,
+  "nfe": 19,
+  "device": "mps",
+  "inception_device": "cpu",
+  "results": [
+    {
+      "sampler": "ddim",
+      "schedule": "karras",
+      "nfe": 19,
+      "n": 2000,
+      "fid": 40.15059050127712,
+      "seconds_gen": 0.0,
+      "seconds_fid": 160.5334471669048
+    },
+    {
+      "sampler": "ddim",
+      "schedule": "found_rule",
+      "nfe": 19,
+      "n": 2000,
+      "fid": 39.32746713776413,
+      "seconds_gen": 78.08688625006471,
+      "seconds_fid": 162.66563133406453
+    },
+    {
+      "sampler": "dpm_pp_2m",
+      "schedule": "karras",
+      "nfe": 19,
+      "n": 2000,
+      "fid": 29.096931805828206,
+      "seconds_gen": 81.8412781660445,
+      "seconds_fid": 152.38729125005193
+    },
+    {
+      "sampler": "dpm_pp_2m",
+      "schedule": "found_rule",
+      "nfe": 19,
+      "n": 2000,
+      "fid": 28.785046604469244,
+      "seconds_gen": 80.55024291703012,
+      "seconds_fid": 159.1056413340848
+    },
+    {
+      "sampler": "heun",
+      "schedule": "karras",
+      "nfe": 19,
+      "n": 2000,
+      "fid": 31.392484775462094,
+      "seconds_gen": 78.28188770799898,
+      "seconds_fid": 158.38249454193283
+    },
+    {
+      "sampler": "heun",
+      "schedule": "found_rule",
+      "nfe": 19,
+      "n": 2000,
+      "fid": 30.86145142716083,
+      "seconds_gen": 78.16283466701861,
+      "seconds_fid": 155.55253258300945
+    }
+  ],
+  "seconds": 1345.5877539999783
+}

@@ -1,0 +1,9 @@
+{
+  "device": "mps",
+  "batch_size": 4,
+  "steps": 10,
+  "seconds": 0.11039179103681818,
+  "images_per_sec": 36.234578336227095,
+  "nfe_per_image": 10,
+  "image_nfe_per_sec": 362.34578336227094
+}

@@ -12,7 +12,7 @@
 2. Добавить found-правило при NFE 19 для трёх сэмплеров (перенос в Heun — функция сдвигов на K=10).
 3. Оценить три контрольные сетки на `mse_test`.
 4. Графики: MSE(NFE), время(NFE), `s(t)` до/после подбора.
-5. `scripts/s8_fid.py` — **Colab**, 6 конфигураций, NFE 19, 2000 или 5000 картинок, clean-fid.
+5. `scripts/s8_fid.py` — 6 конфигураций, NFE 19, 2000 картинок, clean-fid (локально: генерация MPS, Inception CPU).
 6. Сетки PNG одних и тех же 8 шумов для всех финальных методов, плюс 4 явных провала.
 
 ## Запуск
@@ -22,11 +22,6 @@
 ```bash
 python scripts/s8_mse_table.py
 python scripts/s8_figures.py
-```
-
-Colab:
-
-```bash
 python scripts/s8_fid.py --n 2000 --nfe 19
 ```
 

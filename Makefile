@@ -1,4 +1,4 @@
-.PHONY: s1 s2 s3 s4 s5 s6 s7 s8-mse s8-fid test
+.PHONY: s1 s2 s3 s4 s5 s6 s7 s8-mse s8-fid s9 test
 
 PYTHON ?= python
 
@@ -35,6 +35,9 @@ s8-mse:
 
 s8-fid:
 	$(PYTHON) scripts/s8_fid.py --n 2000 --nfe 19
+
+s9:
+	$(PYTHON) scripts/s9_demo.py
 
 test:
 	$(PYTHON) -m pytest tests -q

@@ -1,0 +1,10 @@
+{
+  "device": "mps",
+  "max_abs_step": 0.0,
+  "max_abs_traj": 0.0,
+  "atol_step": 1e-05,
+  "atol_traj": 0.0001,
+  "ok_step": true,
+  "ok_traj": true,
+  "seconds": 1.2951119169592857
+}

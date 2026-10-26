@@ -1,0 +1,47 @@
+{
+  "model_id": "google/ddpm-cifar10-32",
+  "device": "mps",
+  "seed": 0,
+  "n": 4,
+  "num_inference_steps": 10,
+  "eta": 0.0,
+  "torch": "2.14.1",
+  "diffusers": "0.32.2",
+  "transformers": "4.57.6",
+  "scheduler_class": "DDIMScheduler",
+  "scheduler_config": {
+    "num_train_timesteps": 1000,
+    "beta_start": 0.0001,
+    "beta_end": 0.02,
+    "beta_schedule": "linear",
+    "trained_betas": null,
+    "clip_sample": true,
+    "set_alpha_to_one": true,
+    "steps_offset": 0,
+    "prediction_type": "epsilon",
+    "thresholding": false,
+    "dynamic_thresholding_ratio": 0.995,
+    "clip_sample_range": 1.0,
+    "sample_max_value": 1.0,
+    "timestep_spacing": "leading",
+    "rescale_betas_zero_snr": false,
+    "_use_default_values": [
+      "steps_offset",
+      "dynamic_thresholding_ratio",
+      "thresholding",
+      "clip_sample_range",
+      "rescale_betas_zero_snr",
+      "set_alpha_to_one",
+      "prediction_type",
+      "sample_max_value",
+      "timestep_spacing"
+    ],
+    "variance_type": "fixed_large",
+    "_class_name": "DDIMScheduler",
+    "_diffusers_version": "0.1.1"
+  },
+  "unet_config": {
+    "sample_size": 32,
+    "in_channels": 3
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "device": "mps",
+  "max_abs_traj": 0.0,
+  "nfe": 19,
+  "expected_nfe": 19,
+  "ok_traj": true,
+  "ok_nfe": true,
+  "seconds": 1.2659871670184657
+}

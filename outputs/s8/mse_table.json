@@ -1,0 +1,247 @@
+{
+  "rows": [
+    {
+      "group": "standard",
+      "sampler": "ddim",
+      "schedule": "uniform",
+      "nfe_budget": 9,
+      "nfe_actual": 9,
+      "mse": 0.019440514966845512,
+      "seconds": 5.558584708953276,
+      "k": 9
+    },
+    {
+      "group": "standard",
+      "sampler": "ddim",
+      "schedule": "uniform",
+      "nfe_budget": 19,
+      "nfe_actual": 19,
+      "mse": 0.006216060370206833,
+      "seconds": 10.648142666905187,
+      "k": 19
+    },
+    {
+      "group": "standard",
+      "sampler": "ddim",
+      "schedule": "uniform",
+      "nfe_budget": 39,
+      "nfe_actual": 39,
+      "mse": 0.00230388599447906,
+      "seconds": 20.596545916981995,
+      "k": 39
+    },
+    {
+      "group": "standard",
+      "sampler": "ddim",
+      "schedule": "karras",
+      "nfe_budget": 9,
+      "nfe_actual": 9,
+      "mse": 0.032288335263729095,
+      "seconds": 4.657071832916699,
+      "k": 9
+    },
+    {
+      "group": "standard",
+      "sampler": "ddim",
+      "schedule": "karras",
+      "nfe_budget": 19,
+      "nfe_actual": 19,
+      "mse": 0.0101472781971097,
+      "seconds": 9.897479375009425,
+      "k": 19
+    },
+    {
+      "group": "standard",
+      "sampler": "ddim",
+      "schedule": "karras",
+      "nfe_budget": 39,
+      "nfe_actual": 39,
+      "mse": 0.00300028664059937,
+      "seconds": 20.13769308407791,
+      "k": 39
+    },
+    {
+      "group": "standard",
+      "sampler": "dpm_pp_2m",
+      "schedule": "uniform",
+      "nfe_budget": 9,
+      "nfe_actual": 9,
+      "mse": 0.011715259402990341,
+      "seconds": 4.801337499986403,
+      "k": 9
+    },
+    {
+      "group": "standard",
+      "sampler": "dpm_pp_2m",
+      "schedule": "uniform",
+      "nfe_budget": 19,
+      "nfe_actual": 19,
+      "mse": 0.004083829466253519,
+      "seconds": 10.031222707941197,
+      "k": 19
+    },
+    {
+      "group": "standard",
+      "sampler": "dpm_pp_2m",
+      "schedule": "uniform",
+      "nfe_budget": 39,
+      "nfe_actual": 39,
+      "mse": 0.002015305683016777,
+      "seconds": 20.727914165938273,
+      "k": 39
+    },
+    {
+      "group": "standard",
+      "sampler": "dpm_pp_2m",
+      "schedule": "karras",
+      "nfe_budget": 9,
+      "nfe_actual": 9,
+      "mse": 0.00841846875846386,
+      "seconds": 4.868439125013538,
+      "k": 9
+    },
+    {
+      "group": "standard",
+      "sampler": "dpm_pp_2m",
+      "schedule": "karras",
+      "nfe_budget": 19,
+      "nfe_actual": 19,
+      "mse": 0.0007512990850955248,
+      "seconds": 10.097549499943852,
+      "k": 19
+    },
+    {
+      "group": "standard",
+      "sampler": "dpm_pp_2m",
+      "schedule": "karras",
+      "nfe_budget": 39,
+      "nfe_actual": 39,
+      "mse": 4.721922232420184e-05,
+      "seconds": 21.71902050008066,
+      "k": 39
+    },
+    {
+      "group": "standard",
+      "sampler": "heun",
+      "schedule": "uniform",
+      "nfe_budget": 9,
+      "nfe_actual": 9,
+      "mse": 0.06331384927034378,
+      "seconds": 21.91254766599741,
+      "k": 5
+    },
+    {
+      "group": "standard",
+      "sampler": "heun",
+      "schedule": "uniform",
+      "nfe_budget": 19,
+      "nfe_actual": 19,
+      "mse": 0.015426576137542725,
+      "seconds": 33.47514520899858,
+      "k": 10
+    },
+    {
+      "group": "standard",
+      "sampler": "heun",
+      "schedule": "uniform",
+      "nfe_budget": 39,
+      "nfe_actual": 39,
+      "mse": 0.0031347349286079407,
+      "seconds": 86.35393391607795,
+      "k": 20
+    },
+    {
+      "group": "standard",
+      "sampler": "heun",
+      "schedule": "karras",
+      "nfe_budget": 9,
+      "nfe_actual": 9,
+      "mse": 0.17404943704605103,
+      "seconds": 18.403748749988154,
+      "k": 5
+    },
+    {
+      "group": "standard",
+      "sampler": "heun",
+      "schedule": "karras",
+      "nfe_budget": 19,
+      "nfe_actual": 19,
+      "mse": 0.005603233817964792,
+      "seconds": 31.87067804194521,
+      "k": 10
+    },
+    {
+      "group": "standard",
+      "sampler": "heun",
+      "schedule": "karras",
+      "nfe_budget": 39,
+      "nfe_actual": 39,
+      "mse": 0.0004188449529465288,
+      "seconds": 91.04782687500119,
+      "k": 20
+    },
+    {
+      "group": "found_transfer",
+      "sampler": "dpm_pp_2m",
+      "schedule": "found_rule",
+      "nfe_budget": 19,
+      "nfe_actual": 19,
+      "mse": 0.0006526081706397235,
+      "seconds": 45.19523954205215,
+      "k": 19
+    },
+    {
+      "group": "found_transfer",
+      "sampler": "ddim",
+      "schedule": "found_rule",
+      "nfe_budget": 19,
+      "nfe_actual": 19,
+      "mse": 0.0092455530539155,
+      "seconds": 41.514231833978556,
+      "k": 19
+    },
+    {
+      "group": "found_transfer",
+      "sampler": "heun",
+      "schedule": "found_rule",
+      "nfe_budget": 19,
+      "nfe_actual": 19,
+      "mse": 0.005432186648249626,
+      "seconds": 36.09481995808892,
+      "k": 10
+    },
+    {
+      "group": "control",
+      "sampler": "dpm_pp_2m",
+      "schedule": "anchor_early",
+      "nfe_budget": 19,
+      "nfe_actual": 19,
+      "mse": 0.0006975876167416573,
+      "seconds": 34.380946291959845,
+      "k": 19
+    },
+    {
+      "group": "control",
+      "sampler": "dpm_pp_2m",
+      "schedule": "anchor_mid",
+      "nfe_budget": 19,
+      "nfe_actual": 19,
+      "mse": 0.0007295120158232749,
+      "seconds": 33.880360417068005,
+      "k": 19
+    },
+    {
+      "group": "control",
+      "sampler": "dpm_pp_2m",
+      "schedule": "anchor_late",
+      "nfe_budget": 19,
+      "nfe_actual": 19,
+      "mse": 0.0007213768549263477,
+      "seconds": 45.17992654198315,
+      "k": 19
+    }
+  ],
+  "seconds": 664.033120166976,
+  "device": "mps",
+  "nfe_note": "nfe_actual corrected to nfe_budget (CountedUNet counts forwards, not images). S6 checked 18 configs."
+}
